@@ -1,0 +1,36 @@
+.mainicon {
+    border-radius: 60px;
+}
+
+body {
+    font-family: "Merriweather", serif;
+    text-align: center;
+}
+
+.gradient-background {
+	background: linear-gradient(300deg, #00d4ff, #005e8e, #00d4ff);
+	background-size: 180% 180%;
+	animation: gradient 18s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.intro-background {
+    background-color: #00d4ff;
+}
+
+.intro {
+    width: 40%;
+    margin: auto;
+}
+
