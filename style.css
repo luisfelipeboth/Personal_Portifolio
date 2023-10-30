@@ -1,7 +1,3 @@
-.mainicon {
-    border-radius: 60px;
-}
-
 body {
     font-family: "Merriweather", serif;
     text-align: center;
@@ -34,3 +30,86 @@ body {
     margin: auto;
 }
 
+.box {
+    background-color: white;
+    border-radius: 0.75rem;
+    box-shadow: 5px 5px;
+    border: 3px solid;
+    color: black;
+    padding: 10px;
+}
+
+.box:hover {
+    background-color: #00d4ff;
+}
+
+.third.box img[id = "onhover"] {
+	display: none;
+}
+
+.third.box:hover img[id = "onhover"] {
+	display: inline-block;
+}
+
+.third.box:hover img[id = "initial"] {
+	display: none;
+}
+
+.text-emphasis {
+	text-decoration: underline;
+	font-weight: bolder;
+}
+
+hr {
+	border: dotted #005e8e 6px;
+	border-bottom: none;
+	width: 15%;
+	margin: 80px auto;
+}
+
+h2 {
+	color: #005e8e;
+	font-family: "Montserrat", sans-serif;
+	font-size: 2.5rem;
+	font-weight: normal;
+}
+
+h2.intro {
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+
+h2.myskills {
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+#portifolio {
+	text-align: start;
+}
+
+h2.myportifolio {
+	margin-bottom: 80px;
+	text-align: center;
+}
+
+.formlabel {
+	font-size: 2rem;
+	margin-bottom: 15px;
+	align-self: flex-start;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a.course {
+	color: black;
+	text-decoration: underline;
+}
+
+@media (max-width: 992px) {
+	.intro {
+		width: 70%;
+	}
+}

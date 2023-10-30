@@ -20,6 +20,7 @@
                     <ul class="navbar-nav mt-2 mt-md-0 nav-pills">
                         <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
                         <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                        <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
                         <li class="nav-item"><a href="#portifolio" class="nav-link">Portifolio</a></li>
                         <li class="nav-item"><a href="#contactme" class="nav-link">Contact Me!</a></li>
                     </ul>
@@ -30,13 +31,13 @@
     <!-- Intro -->
     <section id="intro" class="gradient-background">
         <div class="container col-xxl-8 px-4 py-5">
-            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-              <div class="col-10 col-sm-8 col-lg-6">
-                <img src="./assets/images/profile_picture.png" class="d-block mx-lg-auto img-fluid" alt="profile picture" width="400" loading="lazy">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5 justify-content-center">
+              <div class="col-10 col-sm-12 col-lg-6">
+                <img src="./assets/images/profile_picture.png" class="mx-lg-auto img-fluid" alt="profile picture" width="400" loading="lazy">
               </div>
               <div class="col-lg-6">
                 <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Luis Felipe Araújo Both</h1>
-                <p class="lead">Control and Automation Engineer. Seeking to use my abilities in coding and debugging to meet the business needs.</p>
+                <p class="lead">Control and Automation Engineer seeking to use my abilities in coding and debugging to meet the business needs!</p>
               </div>
             </div>
           </div>
@@ -44,25 +45,112 @@
     <!-- About -->
     <section id="about">
         <div class="container">
-            <h2 class="intro">Hello.</h2>
-            <p class="intro">Worked as software developer at Fraunhofer IPT in Germany 
-                using C# and Python as core programming languages, as well as visualization tools. 
-                Nowaday I'm in the middle of a transition to Front-end web developer. My main skills are C#, Python, 
-                Data handling and Data visualization tools, but not limited!</p>
+            <h2 class="intro">Welcome!</h2>
+            <p class="intro lead">Software developer with emphasis in C# and Python as core programming languages, 
+                as well as visualization tools, such as matplotlib, and machine learning libraries. 
+                Nowaday I'm in a transition to Front-end Web Developer. Enjoyer of trying new kinds of beer and coffe lover!</p>
+            <hr>
+        </div>  
+    </section>
+    <!-- Skills -->
+    <section id="skills">
+        <div class="container">
+            <h2 class="myskills">My Skills</h2>
+            <div class="row row-cols-1 mt-4 row-cols-md-4 gap-3 mb-3 ms-4 me-4 justify-content-center gap-lg-5">
+                <div class="first box"><img src="./assets/images/responsive-website.png" height="80" alt=""> <h3>Responsive</h3> <p>Websites should work on every size of screen. <span class="text-emphasis">That's my number 1 priority</span>.</p></div>
+                <div class="second box"><img src="./assets/images/front-end.png" height="80" alt=""> <h3>User Inspired</h3> <p>Sophisticated User Interface with simple and intuitive User Experience.</p></div>
+                <div class="third box">
+                    <img src="./assets/images/bugs.png" id="initial" height="80" alt="">
+                    <img src="./assets/images/bugs_hover.png" id="onhover" height="80" alt="">
+                    <h3>Dynamic and Bug-Free</h3> <p>Bringing life to the webpage with no bugs.</p></div>
+            </div>
+            <hr>
         </div>
-        
     </section>
     <!-- Portifolio -->
     <section id="portifolio">
-        <div class="container">
-            
-        </div>
+        <h2 class="myportifolio">My work</h2>
+        <section id="personal-portifolio">
+            <div class="container my-5">
+                <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+                  <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+                    <h1 class="display-4 fw-bold lh-1 text-body-emphasis">Personal portifolio website!</h1>
+                    <p class="lead">First developed website from scratch. It uses HTML for the content, CSS and Bootstrap for the design. It also uses some features of gradient background and flexbox.</p>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+                      <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold"><a href="#">Learn More!</a></button>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+                      <img class="rounded-lg-3" src="./assets/images/personal-portifolio.png" alt="" width="720">
+                  </div>
+                </div>
+              </div>
+        </section>
+
+        <section id="tindog">
+            <div class="container my-5">
+                <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+                <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+                    <h1 class="display-4 fw-bold lh-1 text-body-emphasis">Tindog website!</h1>
+                    <p class="lead">First website made using Bootstrap. The website was made alongside the course from Udemy: <a class="course" href="https://www.udemy.com/course/the-complete-web-development-bootcamp/">The Complete 2023 Web Development Bootcamp</a>.</p>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+                    <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold">Learn More!</button>
+                    </div>
+                </div>
+                <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+                    <img class="rounded-lg-3" src="bootstrap-docs.png" alt="" width="720">
+                </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="HTML-resume">
+            <div class="container my-5">
+                <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+                  <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+                    <h1 class="display-4 fw-bold lh-1 text-body-emphasis">Resume using only HTML!</h1>
+                    <p class="lead">First project using HTML. The idea behind the webpage is to use only HTML to make a website to host your resume.</p>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+                      <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold"><a href="https://luisfelipeboth.github.io/Online_HTML_Only_Resume/">Learn More!</a></button>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+                      <img class="rounded-lg-3" src="./assets/images/HTML-resume.png" alt="" width="720">
+                  </div>
+                </div>
+              </div>
+        </section>
+        <hr>
     </section>
     <!-- Contact Me -->
     <section id="contactme">
-        <div class="container">
-            
-        </div>
+        <div class="container col-xl-10 col-xxl-8 px-4 py-5">
+            <div class="row align-items-center g-lg-5 py-5">
+              <div class="col-lg-7 text-center text-lg-start">
+                <h2 class="display-4 fw-bold lh-1 text-body-emphasis mb-3">Contact Me!</h2>
+                <p class="col-lg-10 fs-4">As a good listener, I'm always open to new ideas and discussion about everything. <span class="text-emphasis">Reach me out there!</span></p>
+              </div>
+              <div class="col-md-10 mx-auto col-lg-5">
+                <form class="p-4 p-md-5 border rounded-3 bg-body-tertiary" action="mailto:luisboth@gmail.com?" method="post" enctype="text/plain">
+                    <label class="formlabel">Use the form below to contact me.</label>
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required>
+                        <label for="floatingInput">Email address</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="floatingSubject" placeholder="Subject" required>
+                        <label for="floatingSubject">Subject</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="body" class="form-control" id="floatingMessage" placeholder="Message">
+                        <label for="floatingMessage">Message</label>
+                    </div>
+                    <button class="w-100 btn btn-lg btn-primary" type="submit">Send.</button>
+                    <hr class="my-4">
+                </form>
+              </div>
+            </div>
+          </div>
     </section>
     <!-- Footer -->
     <section id="footer">
@@ -90,3 +178,5 @@
     </section>
 </body>
 </html>
+<!--  -->
+<!-- https://luisfelipeboth.github.io/Online_HTML_Only_Resume/ -->
