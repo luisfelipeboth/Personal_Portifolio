@@ -83,11 +83,11 @@ h2.myskills {
 	margin-top: 100px;
 	margin-bottom: 50px;
 }
-#portifolio {
+#portfolio {
 	text-align: start;
 }
 
-h2.myportifolio {
+h2.myportfolio {
 	margin-bottom: 80px;
 	text-align: center;
 }
@@ -108,8 +108,36 @@ a.course {
 	text-decoration: underline;
 }
 
+.social{ 
+    background-color: #00d4ff;
+    border-radius: .75rem;
+    box-shadow: 3px 3px;
+    border: 3px solid;
+    min-width: 90px;
+	min-height: 90px;
+}
+
+.img-socials {
+	width: 25px;
+	margin: 2.5px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
 @media (max-width: 992px) {
 	.intro {
 		width: 70%;
+	}
+
+	.img-portfolio {
+		width: 100%;
+	}
+}
+
+@media (max-width: 1200px) and (min-width: 992px) {
+	.img-portfolio {
+		width: 290%;
 	}
 }
